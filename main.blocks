@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_show_leds" id="CA/VD8k.pGeF9eYrP{T2" disabled="true" x="-220" y="-2"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block><block type="device_forever" id="{GGD-!XOD~9=T`]L8)8X" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="=P-I]~E{4bxV4jXR*+8l"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="controls_if" id="n/6ePam.8ey9]V+_n*C9" disabled="true" x="254" y="89"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="XQ-c=uy9n]q$0BB`)Ib5" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block><block type="basic_show_icon" id="IN~~dOW^rr6fT[Dk}@.V" disabled="true" x="778" y="173"><field name="i">IconNames.Duck</field><next><block type="device_pause" id="dV?qkRKN?3!Qv[5/S~@5" disabled="true"><value name="pause"><shadow type="timePicker" id="/l`!nXQ*gTSYRI{;=?BF" disabled="true"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="o4?ZW7e1!bOoaF2MYKbu" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="+$5q0rB#Vp^s}kqt}3)V" disabled="true"><value name="pause"><shadow type="timePicker" id="|.SbZt$Vw;xMG-V,t+~F" disabled="true"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block><block type="device_button_event" id="GNa9:!)HkJv(6BVllmdu" x="59" y="414"><field name="NAME">Button.A</field></block><block type="input_logo_event" id="1r*Dj*d@62I2b8.8yg_8" x="323" y="522"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="^3l#*vw`K1?`SMi_t:aE"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_plot" id="fS*//e]lR]YwlX9:C)Vh" disabled="true" x="748" y="624"><value name="x"><shadow type="math_number_minmax" id="T0y.qi:M/4Y/vTE#:F4^" disabled="true"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">0</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="L?{-#%~=Z9:tprzrF*k9" disabled="true"><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">0</field></shadow></value></block></xml>
